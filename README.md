@@ -24,19 +24,32 @@ https://wireframe.cc/IqMqIC
 
 # Timeline
 
-Day 1
-- Create view for a single question
-- Style the view with CSS.
-- Generate seed data for 5 questions
-- Set up routes for show page. 
+# MVP List
 
-Day 2
-- Set up image upload routes and back end
 
-Day 3
-- Create & style question upload form
-- Set up routes to post question and items to the databae
+## 1. Hosting on Heroku
 
+## 2. New account creation, login, and guest/demo login
+* Users can sign up, sign in, log out
+* Users can use a demo login to try the site
+* Users can't create sets without logging in
+
+## 3. Create multiple choice questions
+* Logged in users can create cards/sets
+* Question can have multiple parts in different formats - text, mathjax (for math notation like fractions) and images.
+* Ability to set right and wrong answers
+* Ability to categorize answers with tags
+* Ability to preview answers as you are creating them
+
+## 4. Multiple Choice Mode
+* Allow the "ruling out" of answers
+* Provide immediate feedback on whether the answer was right/wrong
+
+## 5. Automatically generate a practice exam from a collection of questions
+* Preset algorighthm to generate a practice test with a timer.
+
+
+## 6. Production README 
 
 
 
